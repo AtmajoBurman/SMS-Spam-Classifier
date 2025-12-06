@@ -3,6 +3,7 @@
 *A Machine Learning–powered text classification system deployed with Streamlit*
 
 ---
+Try the deployed app here: **[Spam Classifier Web App](https://sms-spam-classifier-atmajo.streamlit.app/)**  
 
 ## 🚀 Overview
 
@@ -125,3 +126,33 @@ Features of the deployed app:
 This deployment makes the model easily accessible and usable even by non-technical users.
 
 ---
+### ⭐ Strengths
+
+The model achieves high accuracy and excellent precision, especially with TF-IDF (3000 features) and Multinomial Naive Bayes.  
+It generalizes well to promotional and lottery-type spam, detects malicious URLs effectively, runs extremely fast, and is lightweight enough for real-time Streamlit deployment.  
+The preprocessing pipeline ensures clean, standardized inputs.
+
+<p align="center">
+  <img src="Pictures/str_1.png" alt="Strengths 1" width="30%" />
+  <img src="Pictures/str_2.png" alt="Strengths 2" width="30%" />
+  <img src="Pictures/str_3.png" alt="Strengths 3" width="30%" />
+</p>
+
+### ⚠️ Weaknesses
+
+The model struggles with short phishing messages, urgent bank/KYC scams, and modern fraud patterns not present in the dataset.  
+It lacks semantic understanding, relies on word frequency rather than meaning, and may miss intent-based spam.  
+URL patterns, phone numbers, and paraphrased threats are also not handled well.
+
+#### Examples of Misclassified Spam:
+<p align="center">
+  <img src="Pictures/weak_1.png" alt="Weakness 1" width="30%" />
+  <img src="Pictures/weak_2.png" alt="Weakness 2" width="30%" />
+  <img src="Pictures/weak_3.png" alt="Weakness 3" width="30%" />
+</p>
+
+---
+
+<p align="center">
+  Made with ❤️ using <strong>Python, Scikit-learn, NLTK, and Streamlit</strong>
+</p>
