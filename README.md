@@ -11,6 +11,10 @@
 
 <br />
 
+<video width="600" controls>
+  <source src="./SMS SPAM CLASSIFIER_NEW_.mp4" type="video/mp4">
+</video>
+
 ## 🌟 Overview
 
 **Spambuster** is an interactive, beautifully designed chatbot that utilizes Machine Learning to classify whether your SMS/email text is *Spam* or *Genuine*. We trained multiple models on the popular **Kaggle SMS Spam Collection Dataset**, performed detailed exploratory data analysis (EDA), optimized text vectorization approaches, and deployed the best-performing classifier into a modern, decoupled web application.
