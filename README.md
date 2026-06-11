@@ -11,9 +11,7 @@
 
 <br />
 
-<video width="100%" autoplay loop muted playsinline>
-  <source src="SMS%20SPAM%20CLASSIFIER_NEW_.mp4" type="video/mp4">
-</video>
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/1fe06f74-7c2f-4fd5-8b4e-aa61c12a95e1" />
 
 ## 🌟 Overview
 
