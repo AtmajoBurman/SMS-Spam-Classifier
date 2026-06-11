@@ -12,7 +12,7 @@
 <br />
 
 <video width="600" controls>
-  <source src="./SMS SPAM CLASSIFIER_NEW_.mp4" type="video/mp4">
+  <source src="SMS SPAM CLASSIFIER_NEW_.mp4" type="video/mp4">
 </video>
 
 ## 🌟 Overview
