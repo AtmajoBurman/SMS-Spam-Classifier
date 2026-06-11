@@ -46,7 +46,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 
 # Start the FastAPI server (runs on http://localhost:8000)
-uvicorn api.index:app --reload
+uvicorn backend.index:app --reload
 ```
 
 ### 2. Start the React Frontend
@@ -72,7 +72,7 @@ Due to Vercel's strict 250MB size limit for serverless functions, the heavy ML d
 1. Create an account on [Render](https://render.com).
 2. Create a new **Web Service** and connect this repository.
 3. Set the Build Command to: `pip install -r requirements.txt`
-4. Set the Start Command to: `uvicorn api.index:app --host 0.0.0.0 --port $PORT`
+4. Set the Start Command to: `uvicorn backend.index:app --host 0.0.0.0 --port $PORT`
 5. Click **Deploy**. Once deployed, copy the Render URL (e.g., `https://spambuster-api.onrender.com`).
 
 ### 2. Deploy Frontend on Vercel
