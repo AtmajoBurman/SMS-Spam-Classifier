@@ -11,8 +11,8 @@
 
 <br />
 
-<video width="600" controls>
-  <source src="SMS SPAM CLASSIFIER_NEW_.mp4" type="video/mp4">
+<video width="100%" autoplay loop muted playsinline>
+  <source src="SMS%20SPAM%20CLASSIFIER_NEW_.mp4" type="video/mp4">
 </video>
 
 ## 🌟 Overview
